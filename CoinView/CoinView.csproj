@@ -33,6 +33,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="libCoinViewUnified.linkwith.cs">
+      <DependentUpon>libCoinViewUnified.a</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
@@ -41,10 +44,7 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="..\..\..\Documents\Dheeraj\CoinView\DerivedData\CoinView\Build\Products\libCoinViewUnified.a">
-      <Kind>Static</Kind>
-      <ForceLoad>True</ForceLoad>
-    </NativeReference>
+    <ObjcBindingNativeLibrary Include="libCoinViewUnified.a" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
