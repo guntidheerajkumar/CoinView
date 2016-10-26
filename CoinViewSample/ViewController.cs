@@ -21,18 +21,12 @@ namespace CoinViewSample
 
 			view1.BackgroundColor = UIColor.Yellow;
 			view2.BackgroundColor = UIColor.Blue;
-
-			this.View.AddSubview(view2);
-			this.View.AddSubview(view1);
-
-
-			//button1.TouchUpInside += (sender, e) => {
+ 
 			CMSCoinView coinView = new CMSCoinView(view1, view2, new CGRect(30, 30, this.View.Frame.Width - 60, 150));
 			coinView.PrimaryView = view1;
 			coinView.SecondaryView = view2;
 			coinView.SpinTime = 1.0f;
 			this.View.AddSubview(coinView);
-			//};
 		}
 
 		public override void ViewWillAppear(bool animated)
