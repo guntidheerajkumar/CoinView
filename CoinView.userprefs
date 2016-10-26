@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F2F36893-FFC3-4C3A-8985-0C896EAAE305}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoinViewSample/ViewController.cs">
+    <Files>
+      <File FileName="CoinViewSample/ViewController.cs" Line="32" Column="22" />
+      <File FileName="CoinView/ApiDefinition.cs" Line="28" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CoinViewSample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ED96E71D-6516-4953-A3F5-258DA92040E2" />
+</Properties>
