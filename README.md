@@ -14,3 +14,7 @@ coinView.SecondaryView = view2;
 coinView.SpinTime = 1.0f;
 this.View.AddSubview(coinView);
 ```
+
+###Output
+
+![](https://github.com/guntidheerajkumar/CoinView/blob/master/CoinFlipViewOutput.gif)
